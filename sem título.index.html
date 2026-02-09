@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<title>Wesley Beats & Samples</title>
+
+<style>
+body{
+font-family: Arial;
+background:#0e0e0e;
+color:white;
+text-align:center;
+margin:0;
+}
+
+header{
+background:#111;
+padding:30px;
+font-size:28px;
+font-weight:bold;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:20px;
+padding:20px;
+}
+
+.card{
+background:#1c1c1c;
+padding:20px;
+border-radius:14px;
+}
+
+audio{
+width:100%;
+margin:10px 0;
+}
+
+button,input[type=submit]{
+background:#00c853;
+border:none;
+padding:12px;
+border-radius:8px;
+font-size:16px;
+color:white;
+cursor:pointer;
+width:100%;
+}
+
+.free{
+background:#2962ff;
+}
+
+footer{
+padding:20px;
+opacity:0.6;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+🔥 Wesley Beats & Sample Store
+</header>
+
+<div class="grid">
+
+<!-- DRILL -->
+<div class="card">
+<h2>Drill Pack Premium</h2>
+<audio controls src="drill-demo.mp3"></audio>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+<input type="hidden" name="cmd" value="_xclick">
+<input type="hidden" name="business" value="wesleyfotine44@gmail.com">
+<input type="hidden" name="item_name" value="Drill Pack Premium">
+<input type="hidden" name="amount" value="50.00">
+<input type="hidden" name="currency_code" value="USD">
+<input type="submit" value="Comprar $50">
+</form>
+</div>
+
+<!-- FUNK -->
+<div class="card">
+<h2>Funk Pack Premium</h2>
+<audio controls src="funk-demo.mp3"></audio>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+<input type="hidden" name="cmd" value="_xclick">
+<input type="hidden" name="business" value="wesleyfotine44@gmail.com">
+<input type="hidden" name="item_name" value="Funk Pack Premium">
+<input type="hidden" name="amount" value="40.00">
+<input type="hidden" name="currency_code" value="USD">
+<input type="submit" value="Comprar $40">
+</form>
+</div>
+
+<!-- AMAPIANO -->
+<div class="card">
+<h2>Amapiano Pack</h2>
+<audio controls src="amapiano-demo.mp3"></audio>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+<input type="hidden" name="cmd" value="_xclick">
+<input type="hidden" name="business" value="wesleyfotine44@gmail.com">
+<input type="hidden" name="item_name" value="Amapiano Pack">
+<input type="hidden" name="amount" value="35.00">
+<input type="hidden" name="currency_code" value="USD">
+<input type="submit" value="Comprar $35">
+</form>
+</div>
+
+<!-- GRÁTIS -->
+<div class="card">
+<h2>Free Mini Pack</h2>
+<audio controls src="free-demo.mp3"></audio>
+<a href="free-pack.zip">
+<button class="free">Baixar Grátis</button>
+</a>
+</div>
+
+</div>
+
+<footer>
+Após pagamento você recebe o download do pack premium.
+</footer>
+
+</body>
+</html>
